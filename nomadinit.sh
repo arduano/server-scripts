@@ -39,8 +39,6 @@ server = true
 
 bind_addr = "{{ GetInterfaceIP \"eth0\" }}" # Listen on all IPv4
 
-advertise_addr = "127.0.0.1"
-
 bootstrap=true
 
 ports {
